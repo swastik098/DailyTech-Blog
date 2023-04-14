@@ -1,15 +1,48 @@
-# Cuteblog for React
+## Project Name & Pitch
 
-![free download react seo template helmet](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqWAtihYlSV4DsPrCp2O827EMD1JIkyqjamRIHHyIAkWZlrkhbslrRf8R4fwM3W3lBuWmAF7nYD0zbHuRv9ZyAahUiCeWhnLyqzqB1buIHE8zNig88nXCpKf93ugqTkz04zqtT5sDHAz7kM1B0TQizXOCmh5U_uG7GDXurY-SAiHKe3zs_Y_DmYTRhTg/s1920/react%20blog%20free%20download%20source%20code%20gratis%20with%20SEO%20helmet%20(1).jpg>)
+#### Example:
 
-cuteblog for react blogger with helmet SEO
+DailyTech Blog
 
-Documentation : [https://www.hockeycomputindo.com/2022/04/free-download-react-cuteblog-template.html →](https://www.hockeycomputindo.com/2022/04/free-download-react-cuteblog-template.html)
+An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
 
-Test demo : [https://cuteblog.vercel.app/ →](https://cuteblog.vercel.app/)
+## Installation and Setup Instructions
 
-Play Video : [https://youtu.be/ee98hKYFvg0 →](https://youtu.be/ee98hKYFvg0)
+#### Example:
 
-Live codding on StackBlitz ⚡️
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-<a href="https://www.buymeacoffee.com/axcora"><img width="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIA9HMwkK8kr7uRwVNxnhXsLQsJHxQQYVSzqCAaK58OpJOiTlzbIX7eEwS_VpJ3oEG-xrmVEl2WKqGvB_o-KjyBGTbbjFHM_bN2Jce9g3FTnt2ZJViwcvB9DHPOKPEMCl7jTQRVWKPw_ETloH7_CK8Xr09SSNNx22xnfGjViwdEsGtR-yGrLmr-JUGHA/s1090/bmc-button.png"/></a>
+Installation:
+
+`npm install`
+
+To Run Test Suite:
+
+`npm test`
+
+To Start Server:
+
+`npm start`
+
+To Visit App:
+
+`localhost:3000/ideas`
+
+## Reflection
+
+- What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
+- What did you set out to build?
+- Why was this project challenging and therefore a really good learning experience?
+- What were some unexpected obstacles?
+- What tools did you use to implement this project?
+  - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.
+
+#### Example:
+
+This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
+
+Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.
+
+One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
+
+At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
